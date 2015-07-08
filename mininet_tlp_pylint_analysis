@@ -1,0 +1,280 @@
+************* Module mininet_tlp_measurement
+C: 21,0: Line too long (91/80)
+W: 23,0: Found indentation with tabs instead of spaces
+W: 25,0: Found indentation with tabs instead of spaces
+W: 26,0: Found indentation with tabs instead of spaces
+W: 27,0: Found indentation with tabs instead of spaces
+W: 30,0: Found indentation with tabs instead of spaces
+W: 31,0: Found indentation with tabs instead of spaces
+W: 35,0: Found indentation with tabs instead of spaces
+W: 36,0: Found indentation with tabs instead of spaces
+W: 38,0: Found indentation with tabs instead of spaces
+W: 39,0: Found indentation with tabs instead of spaces
+W: 40,0: Found indentation with tabs instead of spaces
+W: 43,0: Found indentation with tabs instead of spaces
+W: 44,0: Found indentation with tabs instead of spaces
+W: 45,0: Found indentation with tabs instead of spaces
+W: 46,0: Found indentation with tabs instead of spaces
+W: 49,0: Found indentation with tabs instead of spaces
+W: 50,0: Found indentation with tabs instead of spaces
+W: 51,0: Found indentation with tabs instead of spaces
+W: 52,0: Found indentation with tabs instead of spaces
+W: 55,0: Found indentation with tabs instead of spaces
+C: 58,0: Line too long (93/80)
+W: 58,0: Found indentation with tabs instead of spaces
+W: 61,0: Found indentation with tabs instead of spaces
+W: 64,0: Found indentation with tabs instead of spaces
+W: 67,0: Found indentation with tabs instead of spaces
+W: 70,0: Found indentation with tabs instead of spaces
+C: 72,0: Line too long (96/80)
+W: 73,0: Found indentation with tabs instead of spaces
+W: 74,0: Found indentation with tabs instead of spaces
+W: 75,0: Found indentation with tabs instead of spaces
+W: 79,0: Found indentation with tabs instead of spaces
+W: 82,0: Found indentation with tabs instead of spaces
+W: 83,0: Found indentation with tabs instead of spaces
+W: 86,0: Found indentation with tabs instead of spaces
+W: 89,0: Found indentation with tabs instead of spaces
+W: 94,0: Found indentation with tabs instead of spaces
+C: 98,0: Line too long (81/80)
+W: 98,0: Found indentation with tabs instead of spaces
+W: 99,0: Found indentation with tabs instead of spaces
+W:100,0: Found indentation with tabs instead of spaces
+C:101,0: Line too long (87/80)
+W:104,0: Found indentation with tabs instead of spaces
+C:105,0: Line too long (87/80)
+C:108,0: Line too long (99/80)
+W:108,0: Found indentation with tabs instead of spaces
+C:109,0: Line too long (92/80)
+W:109,0: Found indentation with tabs instead of spaces
+W:110,0: Found indentation with tabs instead of spaces
+W:113,0: Found indentation with tabs instead of spaces
+W:114,0: Found indentation with tabs instead of spaces
+C:116,0: Line too long (91/80)
+W:118,0: Found indentation with tabs instead of spaces
+W:119,0: Found indentation with tabs instead of spaces
+W:120,0: Found indentation with tabs instead of spaces
+W:121,0: Found indentation with tabs instead of spaces
+W:122,0: Found indentation with tabs instead of spaces
+W:123,0: Found indentation with tabs instead of spaces
+W:124,0: Found indentation with tabs instead of spaces
+W:125,0: Found indentation with tabs instead of spaces
+W:126,0: Found indentation with tabs instead of spaces
+W:127,0: Found indentation with tabs instead of spaces
+W:128,0: Found indentation with tabs instead of spaces
+W:129,0: Found indentation with tabs instead of spaces
+W:130,0: Found indentation with tabs instead of spaces
+W:131,0: Found indentation with tabs instead of spaces
+W:132,0: Found indentation with tabs instead of spaces
+W:133,0: Found indentation with tabs instead of spaces
+W:134,0: Found indentation with tabs instead of spaces
+W:136,0: Found indentation with tabs instead of spaces
+W:137,0: Found indentation with tabs instead of spaces
+W:138,0: Found indentation with tabs instead of spaces
+W:139,0: Found indentation with tabs instead of spaces
+W:140,0: Found indentation with tabs instead of spaces
+W:141,0: Found indentation with tabs instead of spaces
+W:142,0: Found indentation with tabs instead of spaces
+W:143,0: Found indentation with tabs instead of spaces
+W:144,0: Found indentation with tabs instead of spaces
+W:145,0: Found indentation with tabs instead of spaces
+W:146,0: Found indentation with tabs instead of spaces
+W:147,0: Found indentation with tabs instead of spaces
+W:148,0: Found indentation with tabs instead of spaces
+W:149,0: Found indentation with tabs instead of spaces
+W:150,0: Found indentation with tabs instead of spaces
+W:151,0: Found indentation with tabs instead of spaces
+W:155,0: Found indentation with tabs instead of spaces
+W:156,0: Found indentation with tabs instead of spaces
+W:157,0: Found indentation with tabs instead of spaces
+W:158,0: Found indentation with tabs instead of spaces
+W:159,0: Found indentation with tabs instead of spaces
+W:160,0: Found indentation with tabs instead of spaces
+W:161,0: Found indentation with tabs instead of spaces
+W:162,0: Found indentation with tabs instead of spaces
+W:163,0: Found indentation with tabs instead of spaces
+W:164,0: Found indentation with tabs instead of spaces
+W:165,0: Found indentation with tabs instead of spaces
+W:166,0: Found indentation with tabs instead of spaces
+W:167,0: Found indentation with tabs instead of spaces
+W:168,0: Found indentation with tabs instead of spaces
+W:169,0: Found indentation with tabs instead of spaces
+W:173,0: Found indentation with tabs instead of spaces
+W:174,0: Found indentation with tabs instead of spaces
+W:175,0: Found indentation with tabs instead of spaces
+W:178,0: Found indentation with tabs instead of spaces
+W:181,0: Found indentation with tabs instead of spaces
+W:182,0: Found indentation with tabs instead of spaces
+C:183,0: Line too long (91/80)
+W:183,0: Found indentation with tabs instead of spaces
+W:184,0: Found indentation with tabs instead of spaces
+W:186,0: Found indentation with tabs instead of spaces
+W:189,0: Found indentation with tabs instead of spaces
+W:190,0: Found indentation with tabs instead of spaces
+W:192,0: Found indentation with tabs instead of spaces
+W:193,0: Found indentation with tabs instead of spaces
+W:194,0: Found indentation with tabs instead of spaces
+W:195,0: Found indentation with tabs instead of spaces
+W:196,0: Found indentation with tabs instead of spaces
+W:198,0: Found indentation with tabs instead of spaces
+W:199,0: Found indentation with tabs instead of spaces
+W:200,0: Found indentation with tabs instead of spaces
+W:202,0: Found indentation with tabs instead of spaces
+C: 20,0:Router_Topo: Invalid name "Router_Topo" for type class (should match [A-Z_][a-zA-Z0-9]+$)
+C: 25,9:Router_Topo.__init__: Invalid name "hostA" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 26,9:Router_Topo.__init__: Invalid name "hostB" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 27,9:Router_Topo.__init__: Invalid name "hostC" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 34,0:simpleTest: Invalid name "simpleTest" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 34,0:simpleTest: Missing docstring
+C: 38,1:simpleTest: Invalid name "hostA" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 39,1:simpleTest: Invalid name "hostB" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 40,1:simpleTest: Invalid name "hostC" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 97,0:parseArguments: Invalid name "parseArguments" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,0:setConfiguration: Invalid name "setConfiguration" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:117,0:setConfiguration: Missing docstring
+W:118,1:setConfiguration: Global variable 'bw1' undefined at the module level
+W:118,1:setConfiguration: Global variable 'delay1' undefined at the module level
+W:118,1:setConfiguration: Global variable 'bw2' undefined at the module level
+W:118,1:setConfiguration: Global variable 'delay2' undefined at the module level
+C:154,0:setSegmentSize: Invalid name "setSegmentSize" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:154,0:setSegmentSize: Missing docstring
+C:155,1:setSegmentSize: Operator not preceded by a space
+	tcpSegments=(1500-18)*256
+            ^
+C:155,1:setSegmentSize: Invalid name "tcpSegments" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:158,2:setSegmentSize: Invalid name "tcpSegments" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:161,2:setSegmentSize: Invalid name "tcpSegments" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:164,2:setSegmentSize: Invalid name "tcpSegments" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:172,0:tcpDump: Invalid name "tcpDump" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:172,0:tcpDump: Invalid name "hostB" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:172,0:tcpDump: Missing docstring
+C:172,12:tcpDump: Invalid name "hostB" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:173,1:tcpDump: Invalid name "LogFile" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:177,0:tcpDumpStop: Invalid name "tcpDumpStop" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:177,0:tcpDumpStop: Invalid name "hostB" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:177,0:tcpDumpStop: Missing docstring
+C:177,16:tcpDumpStop: Invalid name "hostB" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:180,0:tcpTransfer: Invalid name "tcpTransfer" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:180,0:tcpTransfer: Invalid name "hostA" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:180,0:tcpTransfer: Invalid name "hostC" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:180,16:tcpTransfer: Invalid name "hostA" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:180,23:tcpTransfer: Invalid name "hostC" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:190,1: Invalid name "arguments" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C:192,1: Invalid name "linkConfig1" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C:193,1: Invalid name "linkConfig2" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C:194,1: Invalid name "segment" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C:195,1: Invalid name "logFile" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C:196,1: Invalid name "packetsToDrop" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C:199,1: Invalid name "segmentsSize" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C:200,1: Invalid name "payloadSize" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+
+
+Report
+======
+123 statements analysed.
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|method   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |7      |6          |+1.00      |28.57       |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |124    |70.86 |125      |-1.00      |
++----------+-------+------+---------+-----------+
+|docstring |22     |12.57 |19       |+3.00      |
++----------+-------+------+---------+-----------+
+|comment   |24     |13.71 |23       |+1.00      |
++----------+-------+------+---------+-----------+
+|empty     |5      |2.86  |5        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |51     |61       |-10.00     |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |=          |
++-----------+-------+---------+-----------+
+|warning    |115    |116      |-1.00      |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|W0312      |111         |
++-----------+------------+
+|C0103      |35          |
++-----------+------------+
+|C0301      |10          |
++-----------+------------+
+|C0111      |5           |
++-----------+------------+
+|W0601      |4           |
++-----------+------------+
+|C0322      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -3.50/10 (previous run: -4.27/10)
+
+External dependencies
+---------------------
+::
+
+    mininet 
+      \-link 
+      | \-TCLink (mininet_tlp_measurement)
+      \-log 
+      | \-setLogLevel (mininet_tlp_measurement)
+      \-net 
+      | \-Mininet (mininet_tlp_measurement)
+      \-topo 
+        \-Topo (mininet_tlp_measurement)
+
+
+

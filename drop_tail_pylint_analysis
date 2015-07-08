@@ -1,0 +1,193 @@
+************* Module drop_tail
+W: 21,0: Found indentation with tabs instead of spaces
+W: 22,0: Found indentation with tabs instead of spaces
+W: 23,0: Found indentation with tabs instead of spaces
+W: 24,0: Found indentation with tabs instead of spaces
+W: 25,0: Found indentation with tabs instead of spaces
+W: 26,0: Found indentation with tabs instead of spaces
+W: 27,0: Found indentation with tabs instead of spaces
+W: 28,0: Found indentation with tabs instead of spaces
+W: 29,0: Found indentation with tabs instead of spaces
+W: 30,0: Found indentation with tabs instead of spaces
+W: 31,0: Found indentation with tabs instead of spaces
+W: 32,0: Found indentation with tabs instead of spaces
+W: 35,0: Found indentation with tabs instead of spaces
+W: 36,0: Found indentation with tabs instead of spaces
+W: 37,0: Found indentation with tabs instead of spaces
+W: 38,0: Found indentation with tabs instead of spaces
+C: 39,0: Line too long (86/80)
+W: 39,0: Found indentation with tabs instead of spaces
+W: 40,0: Found indentation with tabs instead of spaces
+W: 41,0: Found indentation with tabs instead of spaces
+W: 42,0: Found indentation with tabs instead of spaces
+W: 43,0: Found indentation with tabs instead of spaces
+W: 44,0: Found indentation with tabs instead of spaces
+W: 45,0: Found indentation with tabs instead of spaces
+W: 46,0: Found indentation with tabs instead of spaces
+W: 47,0: Found indentation with tabs instead of spaces
+W: 48,0: Found indentation with tabs instead of spaces
+W: 49,0: Found indentation with tabs instead of spaces
+W: 50,0: Found indentation with tabs instead of spaces
+W: 51,0: Found indentation with tabs instead of spaces
+W: 52,0: Found indentation with tabs instead of spaces
+W: 53,0: Found indentation with tabs instead of spaces
+W: 54,0: Found indentation with tabs instead of spaces
+C: 58,0: Line too long (81/80)
+W: 58,0: Found indentation with tabs instead of spaces
+W: 59,0: Found indentation with tabs instead of spaces
+W: 60,0: Found indentation with tabs instead of spaces
+W: 61,0: Found indentation with tabs instead of spaces
+W: 65,0: Found indentation with tabs instead of spaces
+W: 68,0: Found indentation with tabs instead of spaces
+W: 69,0: Found indentation with tabs instead of spaces
+W: 72,0: Found indentation with tabs instead of spaces
+W: 74,0: Found indentation with tabs instead of spaces
+W: 75,0: Found indentation with tabs instead of spaces
+W: 77,0: Found indentation with tabs instead of spaces
+W: 78,0: Found indentation with tabs instead of spaces
+W: 80,0: Found indentation with tabs instead of spaces
+W: 82,0: Found indentation with tabs instead of spaces
+W: 83,0: Found indentation with tabs instead of spaces
+W: 84,0: Found indentation with tabs instead of spaces
+W: 85,0: Found indentation with tabs instead of spaces
+W: 86,0: Found indentation with tabs instead of spaces
+W: 88,0: Found indentation with tabs instead of spaces
+W: 90,0: Found indentation with tabs instead of spaces
+W: 91,0: Found indentation with tabs instead of spaces
+W: 93,0: Found indentation with tabs instead of spaces
+W: 94,0: Found indentation with tabs instead of spaces
+W: 97,0: Found indentation with tabs instead of spaces
+W: 98,0: Found indentation with tabs instead of spaces
+W: 99,0: Found indentation with tabs instead of spaces
+W:100,0: Found indentation with tabs instead of spaces
+W:101,0: Found indentation with tabs instead of spaces
+W:102,0: Found indentation with tabs instead of spaces
+C: 16,0: Invalid name "count" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 17,0: Invalid name "lastPacketFlag" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 20,0:cb: Invalid name "cb" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+W: 22,1:cb: Using the global statement
+W: 23,5:cb: Using the global statement
+W: 24,1:cb: Using the global statement
+C: 57,0:parseArguments: Invalid name "parseArguments" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+W: 71,26:tailDrop: Redefining name 'packetsToDrop' from outer scope (line 100)
+W: 71,13:tailDrop: Redefining name 'segmentSize' from outer scope (line 99)
+C: 71,0:tailDrop: Invalid name "tailDrop" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 71,0:tailDrop: Invalid name "segmentSize" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 71,0:tailDrop: Invalid name "packetsToDrop" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 71,0:tailDrop: Missing docstring
+C: 71,13:tailDrop: Invalid name "segmentSize" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 71,26:tailDrop: Invalid name "packetsToDrop" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 72,2:tailDrop: Invalid name "q" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 85,28:tailDrop: Invalid name "e" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 71,26:tailDrop: Unused argument 'packetsToDrop'
+W: 71,13:tailDrop: Unused argument 'segmentSize'
+C: 97,1: Invalid name "arguments" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 98,1: Invalid name "payloadSize" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 99,1: Invalid name "segmentSize" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C:100,1: Invalid name "packetsToDrop" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C:101,1: Invalid name "remainingDropCount" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+
+
+Report
+======
+70 statements analysed.
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |19     |31       |-12.00     |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |=          |
++-----------+-------+---------+-----------+
+|warning    |68     |62       |+6.00      |
++-----------+-------+---------+-----------+
+|error      |0      |9        |-9.00      |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|W0312      |61          |
++-----------+------------+
+|C0103      |16          |
++-----------+------------+
+|W0603      |3           |
++-----------+------------+
+|W0621      |2           |
++-----------+------------+
+|W0613      |2           |
++-----------+------------+
+|C0301      |2           |
++-----------+------------+
+|C0111      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -2.43/10 (previous run: -10.00/10)
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |70     |79.55 |69       |+1.00      |
++----------+-------+------+---------+-----------+
+|docstring |10     |11.36 |6        |+4.00      |
++----------+-------+------+---------+-----------+
+|comment   |2      |2.27  |5        |-3.00      |
++----------+-------+------+---------+-----------+
+|empty     |6      |6.82  |5        |+1.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |3          |=          |66.67       |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    nfqueue (drop_tail)
+
+
+

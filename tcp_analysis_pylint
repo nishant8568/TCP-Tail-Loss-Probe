@@ -1,0 +1,148 @@
+************* Module tcp_analysis
+W:  8,0: Unnecessary semicolon
+W: 16,0: Found indentation with tabs instead of spaces
+W: 20,0: Found indentation with tabs instead of spaces
+W: 36,0: Found indentation with tabs instead of spaces
+C: 44,0: Line too long (81/80)
+W: 44,0: Found indentation with tabs instead of spaces
+W: 45,0: Found indentation with tabs instead of spaces
+W: 46,0: Found indentation with tabs instead of spaces
+W: 49,0: Found indentation with tabs instead of spaces
+W: 50,0: Found indentation with tabs instead of spaces
+C:  1,0: Missing docstring
+C:  4,0: Invalid name "completionTime" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+W:  7,4:filterPackets: Redefining name 'pktsToObserve' from outer scope (line 56)
+W:  5,18:filterPackets: Redefining name 'pcapReader' from outer scope (line 55)
+C:  5,0:filterPackets: Invalid name "filterPackets" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:  5,0:filterPackets: Invalid name "pcapReader" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:  5,18:filterPackets: Invalid name "pcapReader" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:  7,4:filterPackets: Invalid name "pktsToObserve" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C:  9,8:filterPackets: Invalid name "ts" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 12,8:filterPackets: Invalid name "ip" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+E: 15,15:filterPackets: Instance of 'str' has no 'sport' member (but some types could not be inferred)
+E: 15,36:filterPackets: Instance of 'str' has no 'dport' member (but some types could not be inferred)
+W: 22,4:filterPackets: String statement has no effect
+W: 23,4:filterPackets: Using the global statement
+W: 29,23:retransmissionTime: Redefining name 'pktsToObserve' from outer scope (line 56)
+C: 29,0:retransmissionTime: Invalid name "retransmissionTime" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 29,0:retransmissionTime: Invalid name "pktsToObserve" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C: 29,23:retransmissionTime: Invalid name "pktsToObserve" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 31,4:retransmissionTime: Invalid name "pktsArray" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 32,4:retransmissionTime: Invalid name "retransmissionCount" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 33,8:retransmissionTime: Invalid name "ts" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 36,2:retransmissionTime: Invalid name "retransmissionCount" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 43,0:parseArguments: Invalid name "parseArguments" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C: 53,4: Invalid name "arguments" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 54,4: Invalid name "f" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 55,4: Invalid name "pcapReader" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 56,4: Invalid name "pktsToObserve" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+C: 57,4: Invalid name "retransmission_time" for type constant (should match (([A-Z_][A-Z0-9_]*)|(__.*__))$)
+
+
+Report
+======
+42 statements analysed.
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |22     |23       |-1.00      |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |=          |
++-----------+-------+---------+-----------+
+|warning    |14     |14       |=          |
++-----------+-------+---------+-----------+
+|error      |2      |2        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0103      |20          |
++-----------+------------+
+|W0312      |8           |
++-----------+------------+
+|W0621      |3           |
++-----------+------------+
+|E1103      |2           |
++-----------+------------+
+|W0603      |1           |
++-----------+------------+
+|W0301      |1           |
++-----------+------------+
+|W0105      |1           |
++-----------+------------+
+|C0301      |1           |
++-----------+------------+
+|C0111      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -0.95/10 (previous run: -1.19/10)
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |44     |78.57 |44       |=          |
++----------+-------+------+---------+-----------+
+|docstring |3      |5.36  |3        |=          |
++----------+-------+------+---------+-----------+
+|comment   |3      |5.36  |3        |=          |
++----------+-------+------+---------+-----------+
+|empty     |6      |10.71 |6        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |3          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    dpkt (tcp_analysis)
+
+
+

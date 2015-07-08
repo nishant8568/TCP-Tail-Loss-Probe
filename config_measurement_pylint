@@ -1,0 +1,136 @@
+************* Module config_measurement
+W: 10,0: Found indentation with tabs instead of spaces
+W: 12,0: Found indentation with tabs instead of spaces
+C: 13,0: Line too long (89/80)
+W: 18,0: Found indentation with tabs instead of spaces
+W: 20,0: Found indentation with tabs instead of spaces
+W: 21,0: Found indentation with tabs instead of spaces
+C: 22,0: Line too long (154/80)
+C: 24,0: Line too long (96/80)
+W: 24,0: Found indentation with tabs instead of spaces
+W: 25,0: Found indentation with tabs instead of spaces
+W: 26,0: Found indentation with tabs instead of spaces
+W: 27,0: Found indentation with tabs instead of spaces
+W: 30,0: Found indentation with tabs instead of spaces
+W: 32,0: Found indentation with tabs instead of spaces
+W: 34,0: Found indentation with tabs instead of spaces
+W: 35,0: Found indentation with tabs instead of spaces
+W: 36,0: Found indentation with tabs instead of spaces
+C: 37,0: Line too long (100/80)
+W: 37,0: Found indentation with tabs instead of spaces
+W: 39,0: Found indentation with tabs instead of spaces
+W: 40,0: Found indentation with tabs instead of spaces
+C: 44,0: Line too long (82/80)
+C:  1,0: Missing docstring
+W:  3,0: String statement has no effect
+C:  5,0:startMeasurement: Invalid name "startMeasurement" for type function (should match [a-z_][a-z0-9_]{2,30}$)
+C:  5,0:startMeasurement: Invalid name "tlpStatus" for type argument (should match [a-z_][a-z0-9_]{2,30}$)
+C:  5,21:startMeasurement: Invalid name "tlpStatus" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 10,1:startMeasurement: Invalid name "tlpFlag" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 12,1:startMeasurement: Invalid name "tlpFlag" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 15,8:startMeasurement: Invalid name "linkConfig" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 16,12:startMeasurement: Invalid name "transferSize" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 21,6:startMeasurement: Invalid name "tcpAnalysis" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 25,6:startMeasurement: No exception type(s) specified
+C: 24,3:startMeasurement: Invalid name "tcpAnalysis" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 37,6:startMeasurement: Invalid name "fileName" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+C: 38,20:startMeasurement: Invalid name "f" for type variable (should match [a-z_][a-z0-9_]{2,30}$)
+W: 19,20:startMeasurement: Unused variable 'i'
+W: 44,4: String statement has no effect
+
+
+Report
+======
+41 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |31     |70.45 |31       |=          |
++----------+-------+------+---------+-----------+
+|docstring |9      |20.45 |9        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |0        |=          |
++----------+-------+------+---------+-----------+
+|empty     |4      |9.09  |4        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |17     |17       |=          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |=          |
++-----------+-------+---------+-----------+
+|warning    |21     |21       |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|W0312      |17          |
++-----------+------------+
+|C0103      |11          |
++-----------+------------+
+|C0301      |5           |
++-----------+------------+
+|W0105      |2           |
++-----------+------------+
+|W0702      |1           |
++-----------+------------+
+|W0612      |1           |
++-----------+------------+
+|C0111      |1           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 0.73/10 (previous run: 0.73/10)
+
