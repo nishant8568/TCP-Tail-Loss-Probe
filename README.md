@@ -1,4 +1,4 @@
-# TCP-Tail-Loss-Probe
+# TCP Tail Loss Probe
 
 A simple network topology with three hosts is created using Mininet. Two of these hosts act as normal host nodes while the third one is configured as a router which connects the other two hosts. The ultimate goal is to measure the Completion Time and Retransmission Time in a TCP file transfer from a host to the other host over this network. This is done in two phases-
 i) TLP Enabled
